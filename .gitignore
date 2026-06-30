@@ -1,0 +1,38 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ── Virtual Environment ─────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter Notebook ─────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+
+# ── Environment variables / secrets ─────────────────────
+.env
+
+# ── Large dataset (optional — uncomment if you don't want
+#    to push the raw CSV to GitHub) ──────────────────────
+# Dataset_.csv
+
+# ── Generated outputs (optional — uncomment if you only
+#    want to keep the .py scripts, not the chart images) ─
+# *.png
